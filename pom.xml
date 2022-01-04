@@ -11,6 +11,7 @@
 	<groupId>com.simpliLearn</groupId>
 	<artifactId>jenkins</artifactId>
 	<version>0.0.1</version>
+	<packaging>war</packaging>
 	<name>jenkins</name>
 	<description>Demo project for ci cd pipeline using jenkins</description>
 	<properties>
@@ -45,6 +46,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>com-simpliLearn-jenkins</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
